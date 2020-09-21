@@ -1,0 +1,10 @@
+--cpu ARM7TDMI
+".\objects\main.o"
+".\objects\grayscale.o"
+".\objects\convolution.o"
+".\objects\maxpoolingassem.o"
+".\objects\relocation.o"
+".\serial.o"
+".\startup.o"
+--library_type=microlib --strict --scatter ".\Objects\p4.sct"
+--summary_stderr --info summarysizes -o .\Objects\p4.axf

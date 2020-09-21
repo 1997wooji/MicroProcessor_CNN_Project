@@ -1,0 +1,6 @@
+--cpu ARM7TDMI
+".\objects\main.o"
+".\serial.o"
+".\startup.o"
+--library_type=microlib --strict --scatter ".\Objects\conv_test.sct"
+--summary_stderr --info summarysizes -o .\Objects\conv_test.axf

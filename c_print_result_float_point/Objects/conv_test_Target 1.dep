@@ -1,0 +1,6 @@
+Dependencies for Project 'conv_test', Target 'Target 1': (DO NOT MODIFY !)
+F (.\base.h)(0x5C763832)()
+F (.\main.c)(0x5CF11F74)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\conv_test-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (base.h)(0x5C763832)
+F (.\serial.o)(0x560BB93E)()
+F (.\startup.o)(0x560BB93C)()
